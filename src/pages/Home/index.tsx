@@ -1,11 +1,11 @@
 import * as S from "./style.ts"
-import vovo from "../../images/vovo.png"
 
 export function Home() {
+    const vovo = require("../../images/vovo.png")
     return(
         <S.Home>
             <div>
-                <img src={vovo} alt="Vovó nde Rose" />    
+                <img src={vovo} alt="Vovó Rose" />    
             </div>
             <div>
                 <article>

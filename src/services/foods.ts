@@ -1,4 +1,3 @@
-import rosquinha from "../images/rosquinha.png"
 import bolo from "../images/bolo.png"
 import brigadeiro from "../images/brigadeiro.png"
 import sorvete from "../images/sorvete.png"
@@ -6,7 +5,7 @@ import sorvete from "../images/sorvete.png"
 export const foods = [
     {
         id: 1,
-        ilustration: rosquinha,
+        ilustration: require("../images/rosquinha.png"),
         mensage: "Rosquinha",
         name: "Rosquinha",
     },
