@@ -1,6 +1,6 @@
-import bolo from "../images/bolo.png"
+/*import bolo from "../images/bolo.png"
 import brigadeiro from "../images/brigadeiro.png"
-import sorvete from "../images/sorvete.png"
+import sorvete from "../images/sorvete.png"*/
 
 export const foods = [
     {
@@ -11,19 +11,19 @@ export const foods = [
     },
     {
         id: 2,
-        ilustration: bolo,
+        ilustration: require("../images/bolo.png"),
         mensage: "Bolo",
         name: "Bolo",
     },
     {
         id: 3,
-        ilustration: brigadeiro,
+        ilustration: require("../images/brigadeiro.png"),
         mensage: "Brigadeiro",
         name: "Brigadeiro", 
     },
     {
         id: 4,
-        ilustration: sorvete,
+        ilustration: require("../images/sorvete.png"),
         mensage: "Sorvete",
         name: "Sorvete",
     }

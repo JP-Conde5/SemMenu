@@ -3,7 +3,7 @@ import { useAuth } from '../hooks/authHook'
 import { useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 
-export default function ProtectedRoute() {
+export function ProtectedRoute() {
   const [isLoading, setIsLoading] = useState(true);
   const [isAuth, setIsAuth] = useState(true);
   const { loadUserStorageData } = useAuth()

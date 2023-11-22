@@ -1,4 +1,6 @@
 export { Home as PageHome } from "./Home"
 export { Revenues as PageRevenues } from "./Revenues"
+export { Login as PageLogin } from "./Login"
+export { Register as PageRegister } from "./Register"
 export { Layout as PageLayout } from "./Layout"
-export { Adm as PageAdm } from "./Kitchen"
+export { Kitchen as PageKitchen } from "./Kitchen"
