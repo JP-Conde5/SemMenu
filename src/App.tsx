@@ -4,7 +4,7 @@ import { Rout } from "./routes"
 import { ToastContainer } from "react-toastify";
 import { AuthProvider } from "./contexts/authContext";
 
-export function App() {
+function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
@@ -16,3 +16,4 @@ export function App() {
   )
 }
 
+export default App

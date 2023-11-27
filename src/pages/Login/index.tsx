@@ -28,7 +28,7 @@ export function Login() {
         password: String(password),
       })
       toast.success("Login realizado com sucesso!");
-      navigate('/adm')
+      navigate('/kitchen')
     } catch (error) {
       const err = error as AxiosError<IErrorResponse>
       toast.error(String(err.response?.data))
@@ -56,7 +56,7 @@ export function Login() {
           />
         </div>
         <p>
-          Não possui conta? <Link to="/cadastrar">Cadastre-se</Link>
+          Não possui conta? <Link to="/register">Cadastre-se</Link>
           <button type="submit">Entrar</button>
         </p>
       </form>

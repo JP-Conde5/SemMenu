@@ -17,6 +17,12 @@ export function Header() {
                             <a href="/">Home</a>
                         </li>
                         <li>
+                            <a href="/login">Login</a>
+                        </li>
+                        <li>
+                            <a href="/regiter">Cadastrar-se</a>
+                        </li>
+                        <li>
                             <a href="/revenues">Receitas</a>
                         </li>
                     </ul>

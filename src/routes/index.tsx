@@ -8,10 +8,10 @@ export function Rout(){
             <Route path="/" element={<PageLayout/>}>
                 <Route path="" element={<PageHome/>}/>
                 <Route path="revenues" element={<PageRevenues/>} />
-                <Route path="cadastrar" element={<PageRegister/>} />
-                <Route path="login" element={<PageLogin/>} />
-                <Route element={<ProtectedRoute/>}>
-                    <Route path="/kitchen" element={<PageKitchen/>} />
+                <Route path="login" element={<PageLogin/>}/>
+                <Route path="register" element={<PageRegister/>} />
+                <Route path="kitchen" element={<ProtectedRoute/>}>
+                    <Route path="" element={<PageKitchen/>}/> 
                 </Route>
             </Route>
         </Routes>
