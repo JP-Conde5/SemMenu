@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import { PageHome, PageRevenues, PageLayout, PageRegister, PageLogin, PageKitchen } from "../pages/index.ts"
 import { ProtectedRoute } from "./ProtectedRoutes.tsx"
 
-export function Rout(){
+export const RouteSoftware = () =>{
     return(
         <Routes>
             <Route path="/" element={<PageLayout/>}>
@@ -10,8 +10,8 @@ export function Rout(){
                 <Route path="revenues" element={<PageRevenues/>} />
                 <Route path="login" element={<PageLogin/>}/>
                 <Route path="register" element={<PageRegister/>} />
-                <Route path="kitchen" element={<ProtectedRoute/>}>
-                    <Route path="" element={<PageKitchen/>}/> 
+                <Route element={<ProtectedRoute/>}>
+                    <Route path="kitchen" element={<PageKitchen/>}/> 
                 </Route>
             </Route>
         </Routes>

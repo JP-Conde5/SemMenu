@@ -1,29 +1,36 @@
-/*import bolo from "../images/bolo.png"
+import rosquinha from "../images/rosquinha.png"
+import bolo from "../images/bolo.png"
 import brigadeiro from "../images/brigadeiro.png"
-import sorvete from "../images/sorvete.png"*/
+import sorvete from "../images/sorvete.png"
+
+/*const rosquinha = require("../images/rosquinha.png")
+const bolo = require("../images/bolo.png")
+const brigadeiro = require("../images/brigadeiro.png")
+const sorvete = require("../images/sorvete.png")*/
 
 export const foods = [
+    
     {
         id: 1,
-        ilustration: require("../images/rosquinha.png"),
+        ilustration: rosquinha,
         mensage: "Rosquinha",
         name: "Rosquinha",
     },
     {
         id: 2,
-        ilustration: require("../images/bolo.png"),
+        ilustration: bolo,
         mensage: "Bolo",
         name: "Bolo",
     },
     {
         id: 3,
-        ilustration: require("../images/brigadeiro.png"),
+        ilustration: brigadeiro,
         mensage: "Brigadeiro",
         name: "Brigadeiro", 
     },
     {
         id: 4,
-        ilustration: require("../images/sorvete.png"),
+        ilustration: sorvete,
         mensage: "Sorvete",
         name: "Sorvete",
     }

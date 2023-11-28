@@ -1,7 +1,8 @@
 import * as S from "./style"
+import logo from "../../images/icon.png"
 
 export function Header() {
-    const logo = require("../../images/icon.png")
+    //const logo = require("../../images/icon.png")
     return (
         <S.Fundo>
             <S.Header> 
