@@ -9,9 +9,9 @@ export function Header() {
     const { user, signOut } = useContext(AuthContext)
     const navigate = useNavigate();
     async function logout() {
-    await signOut()
-    navigate('/login')
-  }
+        await signOut()
+        navigate('/login')
+    }
     return (
         <S.Fundo>
             <S.Header>
