@@ -7,7 +7,6 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
   h1 {
     color: ${colors.primary};
     font-weight: 500;

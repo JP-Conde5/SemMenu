@@ -8,8 +8,6 @@ export function Revenues() {
           {foods.map(item=> (
                 <ComponentFood
                     key = {item.id}
-                    ilustration = {item.ilustration}
-                    mensage = {item.mensage}
                     name = {item.name}
                 />
             ))}

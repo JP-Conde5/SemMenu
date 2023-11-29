@@ -1,5 +1,4 @@
 import * as S from "./style"
-import logo from "../../images/icon.png"
 
 export function Header() {
     //const logo = require("../../images/icon.png")
@@ -8,7 +7,7 @@ export function Header() {
             <S.Header> 
                 <div>
                     <picture>
-                         <img src={logo} alt="Logo" />
+                         <img src="src/images/icon.png" alt="Logo" />
                     </picture>
                     <h1>Doces da Rose</h1>
                 </div>
@@ -21,7 +20,7 @@ export function Header() {
                             <a href="/login">Login</a>
                         </li>
                         <li>
-                            <a href="/regiter">Cadastrar-se</a>
+                            <a href="/register">Cadastro</a>
                         </li>
                         <li>
                             <a href="/revenues">Receitas</a>
