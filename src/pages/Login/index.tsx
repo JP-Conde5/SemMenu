@@ -55,10 +55,14 @@ export function Login() {
             value={formData?.password}
           />
         </div>
-        <p>
-          Não possui conta? <Link to="/register">Cadastre-se</Link>
+        <article>
+          <p>  
+            Não possui conta? 
+            <br />
+            <Link to="/register">Cadastre-se</Link>
+          </p>
           <button type="submit">Entrar</button>
-        </p>
+        </article>
       </form>
     </S.Section>
   );

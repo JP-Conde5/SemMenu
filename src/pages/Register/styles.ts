@@ -37,13 +37,31 @@ export const Section = styled.section`
         background-color: transparent;
       }
     }
-    p {
+    article {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
       margin-top: 1rem;
       a {
         text-decoration: none;
-        color: ${colors.black};
+        color: ${colors.secondary};
         font-weight: bold;
       }
+      a:hover{
+        color: ${colors.white};;
+      }
     }
+    button{
+        font-size: 1rem;
+        margin-left: 3rem;
+        background-color: ${colors.secondary};
+        border: 0.5rem solid ${colors.secondary};
+        border-radius: 20%;
+        cursor: pointer;
+      }
+      button:hover{
+          background-color: ${colors.white};
+          border-color: ${colors.white};
+      }
   }
 `

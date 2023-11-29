@@ -65,10 +65,14 @@ export function Register() {
             value={formData?.password}
           />
         </div>
-        <p>
-          Já possui conta? <Link to="/login">Faça o login</Link>
+        <article>
+          <p>
+            Já possui conta?
+            <br />
+            <Link to="/login">Faça o login</Link>  
+          </p>
           <button type="submit">Salvar</button>
-        </p>
+        </article>
       </form>
     </S.Section>
   );

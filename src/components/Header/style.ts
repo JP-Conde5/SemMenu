@@ -49,6 +49,8 @@ export const Header = styled.header`
                 height: 100%;
                 display: flex;
                 text-align: center;
+                justify-content: center;
+                align-items: center;
                 a{
                     margin-top: 1.5rem;
                     width: 100%;
@@ -57,7 +59,16 @@ export const Header = styled.header`
                     font-size: 2.25rem;
                 }
                 a:hover{
-                color: ${colors.secondary};
+                    color: ${colors.secondary};
+                }
+                button{
+                    background-color: ${colors.primary};
+                    color: ${colors.white};
+                    font-size: 2.00rem;
+                    margin-top: 1.5rem;
+                }
+                button:hover{
+                    color: ${colors.secondary}
                 }
             }
         }
